@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #71557a;
+    font-family: "Libre Baskerville", serif;
+    display: grid;
+    text-align: left;
+    vertical-align: baseline;
+}
+.nome{
+    color:bisque;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+nav{
+    background-color: #3a345b;
+    margin: 5;
+    padding: 3%;
+    font-family: "Libre Baskerville", serif;
+}
+.perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: scaleX(-1);
+  justify-content: end;
+}
+p{
+    color: #f3c8dd;
+  border: 2px solid #f3c8dd;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #3a345b;
+  max-width: 500px;
+}
+.sobrem{
+    color: blanchedalmond;
+}
+a:link {
+  color: #f3c8dd; /* link normal */
+}
+a:visited {
+  color: #c89bb3; /* depois de clicado */
+}
+a:hover {
+  color: #ffffff; /* quando passa o mouse */
+}
+a:active {
+  color: #ff69b4; /* quando clica */
+}
+.botao {
+  background-color: #a41259;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #f3c8dd;
+  color: #3a345b;
+}
