@@ -4,45 +4,33 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f7f4d5;
-    font-family: "Libre Baskerville", serif;
-    display: grid;
-    text-align: left;
-    vertical-align: baseline;
+    background-color: beige;
+    display: flex;
 }
 nav{
-    background-color: #105666;
-    margin: 10;
-    padding: 1%;
-    border-radius: 0 0 20px 20px;
+    background-color: black;
+    margin: 1px;
+    padding: 6%;
+    width: 100%;  
+    position: fixed;
+    z-index: 3;  
 }
-.planta{
-  width: 200%;
-  height: 200px;
-  border-radius: 12px;
-  object-fit: cover;  
+.lateral { 
+    background-color: pink;
+    position: fixed;
+    width: 150px; 
+    height: 100vh;
+    padding: 20px;
+    z-index: 2;
 }
-.botao {
-  background-color: #0a3323;
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  display: inline-block;
-  margin-top: 10px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.botao:hover {
-  background-color: #105666;
-}
-.card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  background-color: white;
-  border-radius: 20px;
-  padding: 20px;
-  max-width: 700px;
-  margin: 30px auto;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+.baixo{
+    background-color: brown;
+    position: fixed;
+
+    bottom: 0; 
+    left: 0;    
+    width: 100%;
+
+    padding: 30px;
+    z-index: 1;  
 }
