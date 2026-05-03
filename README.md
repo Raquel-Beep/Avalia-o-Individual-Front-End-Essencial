@@ -79,9 +79,6 @@ O objetivo desta atividade foi praticar:
 **Raquel Taveira**  
 Estudante de Análise e Desenvolvimento de Sistemas  
 
-🔗 [LinkedIn](https://www.linkedin.com/)  
-🔗 [GitHub](https://github.com/)  
-
 ---
 
 ✨ Projeto desenvolvido para fins acadêmicos.
